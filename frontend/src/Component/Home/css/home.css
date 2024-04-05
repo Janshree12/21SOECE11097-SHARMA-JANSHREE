@@ -1,0 +1,40 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .col {
+    flex: 1 1 33.33%;
+    padding: 10px;
+  }
+  
+  .card {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+.btn{
+  border: 'none';
+  border-Radius: '14px';
+   width: '120px';
+    font-Size: 'larger';
+     font-Weight: '650';
+}
+  .btn Link{
+    text-decoration: none;
+    color: white;
+  }
+  
+  @media (max-width: 768px) {
+    .col {
+      flex: 1 1 100%;
+    }
+  }
+  
